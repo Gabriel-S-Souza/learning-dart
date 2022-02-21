@@ -36,11 +36,11 @@ void main() {
 
 	print('dynamic:');
 	// Valor inferido através da inferência de tipos e que é dinâmico, o seja, pode ser alterado
-	// O tipo dynamic tem um CUSTO COMPUTACIONAL, pois o computador usa mais sua capacidade
+	// O tipo dynamic tem um CUSTO COMPUTACIONAL, pois o programa irá usar MAIS capacidade
 	// computacional para identificar qual tipo a variável está assumindo naquele momento
-
-	//Usar muito dynamic é uma má prática
+	// por isso usar muito dynamic é uma má prática
 	dynamic idade3 = 25;
+	// Tipo alterado de forma dinâmica
 	idade3 = idade3 + 0.5;
 	var texto2 = "Eu tenho $idade3 anos";
 	print(texto2);
