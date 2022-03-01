@@ -4,7 +4,7 @@ void main() {
 
   final finalNome = "Dart final";
 
-  final finalNomeComConst = const ["Dart final"];
+  final finalNomeComConst = const ["Dart final com valor const"];
 
   print(constNome);
   print(finalNome);
