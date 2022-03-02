@@ -1,5 +1,5 @@
 void main() {
-  //CONCATENAÇÃO: estas formas funcionam:
+  //CONCATENAÇÃO
   print('he' 'llo');
   print('he' + 'llo');
   print('he'
