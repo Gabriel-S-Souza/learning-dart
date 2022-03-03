@@ -13,7 +13,7 @@ void main() {
   Map<String, String> comentarios2 = Map<String, String>();
 
   //           chave          valor
-  comentarios2['Java'] = 'comentário Java';
+  comentarios2['Java'] = 'comentário Java \u{1f606}';
 
   print(comentarios2);
 }
