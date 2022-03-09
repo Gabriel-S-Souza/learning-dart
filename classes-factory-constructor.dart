@@ -3,12 +3,11 @@ class Funcionario {
 
   Funcionario(this.nome);
 
+  //o factory constructor é utilizado para retornar instancias de outras subclasses ou caches
   factory Funcionario.criarInstancia(String nome, String tipo) {
     if (tipo == 'G') return Gerente(nome);
-    if (tipo == 'E')
-      return Engenheiro(nome);
-    else
-      return Funcionario(nome);
+    if (tipo == 'E') return Engenheiro(nome);
+    else return Funcionario(nome);
   }
 }
 
@@ -22,6 +21,7 @@ class Engenheiro extends Funcionario {
 }
 
 void main() {
+  //Instanciando funcionario com a subclasse Gerente
   Funcionario funcionario = Funcionario.criarInstancia("Felipe", "G");
   print(funcionario);
 }
