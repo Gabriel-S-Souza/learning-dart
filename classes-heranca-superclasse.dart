@@ -15,6 +15,7 @@ class Cliente extends ClienteModel {
   late String nome;
 
   //Cria um construtor que utiliza um construtor nomeado da superclasse
+  //OBS: construtores não são herdados, por isso é precisso fazer esta implementação
   // O super permite acessar as propriedades e métodos da superclasse
   Cliente(Map data) : super.fromJson(data);
 }
