@@ -1,12 +1,12 @@
 void main() {
   //Uso de closure
 
-  var saudacao = saudar('Mundo');
-  print(saudacao('Olá'));
+  var saudacao = saudar('Olá');
+  print(saudacao('Mundo'));
 }
 
-dynamic saudar(current) {
-  return (String last) => '$last $current';
+dynamic saudar(last) {
+  return (String current) => '$last $current';
 }
 
 //saída: Olá Mundo
