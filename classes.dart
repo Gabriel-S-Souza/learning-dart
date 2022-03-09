@@ -18,3 +18,8 @@ class Funcionario {
     return DateTime.now();
   }
 }
+
+
+//saída: 
+// 4000.0
+// 2022-03-09 13:04:45.111561
