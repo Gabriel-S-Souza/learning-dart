@@ -1,7 +1,7 @@
 void main() {
   //As classes também são tipos específicos
   Funcionario funcionario = Funcionario();
-  print(funcionario.salrio);
+  print(funcionario.salario);
   print(funcionario.registrarPonto());
 }
 
@@ -9,7 +9,7 @@ class Funcionario {
   //Propriedades
   String nome = "Fulano";
   int idade = 23;
-  double salrio = 4000.00;
+  double salario = 4000.00;
   bool contaAtiva = true;
 
   //Métodos
