@@ -1,4 +1,4 @@
-//Cria uma superclasse
+//Cria uma superclasse p/ a classe Cliente
 class ClienteModel {
   late String nome;
   ClienteModel.fromJson(Map data) {
