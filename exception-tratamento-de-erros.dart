@@ -1,3 +1,5 @@
+//Esse código recebe argumentos de linha de comando e lança e trata as excessões
+//e erros conforme os argumentos que forem ou não inseridos ao executá-lo
 void main(args) {
   try {
     gerarErro(int.parse(args[0]));
