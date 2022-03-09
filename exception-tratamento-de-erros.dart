@@ -3,22 +3,22 @@
 void main(args) {
   try {
     gerarErro(int.parse(args[0]));
-  } 
+  }
   //Filtrando as excessões para criar tratamentos específicos
   on Valor1Exception {
     print("Tratando a excessão: Valor 1");
-  } 
-  on Valor2Exception {
+  } on Valor2Exception {
     print("Tratando a excessão: Valor 2");
-  } 
-  on Valor3Exception {
+  } on Valor3Exception {
     print("Tratando a excessão: Valor 3");
-  } 
-  on Exception catch (e) {
+  } on Exception catch (e) {
     print("Não foi possível: $e");
-  } 
-  catch (e) {
+  } catch (e) {
     print("Houve um erro: $e");
+  }
+  //O bloco finally sempre será executado
+   finally {
+    print("Fianlizando");
   }
 }
 
